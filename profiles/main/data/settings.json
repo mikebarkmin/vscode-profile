@@ -1,0 +1,81 @@
+{
+  "window.menuBarVisibility": "toggle",
+  "workbench.colorTheme": "Catppuccin Latte",
+  "keyboard.dispatch": "keyCode",
+  "vim.hlsearch": true,
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "v", "f"],
+      "commands": ["editor.action.formatDocument"]
+    },
+    {
+      "before": ["<leader>", "n", "o", "h"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "f", "f"],
+      "commands": ["workbench.action.quickOpen"]
+    },
+    {
+      "before": ["<leader>", "f", "b"],
+      "commands": ["workbench.action.showEditorsInActiveGroup"]
+    },
+    {
+      "before": ["<leader>", "f", "g"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["<leader>", "t", "t"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "t", "f"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "v", "s", "d"],
+      "commands": ["editor.action.showHover"]
+    },
+    {
+      "before": ["<leader>", "v", "c", "a"],
+      "commands": ["editor.action.quickFix"]
+    },
+    {
+      "before": ["<leader>", "v", "n"],
+      "commands": ["editor.action.marker.next"]
+    },
+    {
+      "before": ["<leader>", "v", "p"],
+      "commands": ["editor.action.marker.prev"]
+    },
+    {
+      "before": ["<leader>", "v", "s", "h"],
+      "commands": ["editor.action.triggerParameterHints"]
+    },
+    {
+      "before": ["<leader>", "v", "r", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["<leader>", "v", "r", "n"],
+      "commands": ["editor.action.rename"]
+    },
+    {
+      "before": ["<leader>", "v", "i"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["<leader>", "v", "d"],
+      "commands": ["editor.action.revealDefinition"]
+    }
+  ],
+  "redhat.telemetry.enabled": false,
+  "projectManager.git.baseFolders": [
+    "~/Sources"
+  ],
+  "projectManager.filterOnFullPath": true,
+  "window.autoDetectColorScheme": true,
+  "workbench.preferredDarkColorTheme": "Catppuccin Latte",
+  "workbench.preferredLightColorTheme": "Catppuccin Latte"
+}
